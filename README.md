@@ -137,7 +137,7 @@ Algorithms
 
 ## Performance
 
-To increase the performance of the application and to reduce the load, we have implemented the cache` in the
+To increase the performance of the application and to reduce the load, we have implemented `cache` in the
 application. This cache will store the
 prime number result in it. If the user requests to generate the same prime number within 60 minutes, the application
 will retrieve it from the cache instead of performing the calculation again.
@@ -147,8 +147,5 @@ The cache is updated every 60 minutes.
 
 ## Docker Image Build
 
-In the Dockerfile, we have used the multi-stage build process. This process helps us in reducing the image size footprint
-and also helps
-us in having only those binaries/libraries which are needed by the application,
-and less size of the image, meaning fewer vulnerabilities and less cost.
+We have provided a Dockerfile, which will help to containerise the application. This can be used to run the application in a Docker environment.
 
