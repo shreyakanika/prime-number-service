@@ -1,0 +1,5 @@
+com/natwest/generator/PrimeNumberGenerator.class
+com/natwest/generator/DefaultPrimeNumberGenerator.class
+com/natwest/predicate/BruteForcePrimeNumberPredicate.class
+com/natwest/predicate/PrimeNumberPredicate.class
+com/natwest/predicate/HeuristicPrimeNumberPredicate.class
